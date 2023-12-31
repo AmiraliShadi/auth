@@ -3,7 +3,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $nationalCode = $_POST['nationalCode'];
     $birthDate = $_POST['birthDate'];
     $apiEndpoint = 'https://api.zibal.ir/v1/facility/nationalIdentityInquiry/';
-    $accessToken = '830fa5c425de4e02a7b797e635056099';
+    $accessToken = '*************'; //your tiken ( get from zibal )
     $postData = array(
         'nationalCode' => $nationalCode,
         'birthDate' => $birthDate
