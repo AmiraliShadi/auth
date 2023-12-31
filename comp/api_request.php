@@ -2,7 +2,7 @@
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $nationalId = $_POST['nationalId'];
     $apiEndpoint = 'https://api.zibal.ir/v1/facility/companyInquiry/';
-    $accessToken = '830fa5c425de4e02a7b797e635056099';
+    $accessToken = '*************'; //your tiken ( get from zibal )
     $postData = array(
         'nationalId' => $nationalId
     );
