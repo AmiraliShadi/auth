@@ -3,7 +3,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $mobile = $_POST['mobile'];
     $nationalCode = $_POST['nationalCode'];
     $apiEndpoint = 'https://api.zibal.ir/v1/facility/shahkarInquiry/';
-    $accessToken = '830fa5c425de4e02a7b797e635056099';
+    $accessToken = '*************'; //your tiken ( get from zibal )
     $postData = array(
         'mobile' => $mobile,
         'nationalCode' => $nationalCode
